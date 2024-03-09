@@ -1,0 +1,53 @@
+.circulo { /*/primera clase y se va a estilar /*/
+    width: 100px; /*/el ancho y se mide en pixeles /*/
+    height: 100px; /*/la altura /*/
+    border-radius: 50%; /*/el borde del radio que le dara el 
+    aspecto del circulo /*/
+    background-color: blue; /*/el color del fondo /*/
+    border-style: solid; /*/ estilo del borde /*/
+    margin-bottom: 10px; /*/establece el margen inferior /*/
+    display: block; /*/es para especificar que un elemento 
+    debe ser mostrado como un bloque, generando un salto de lenea antes 
+    y despues de el /*/
+    margin-left: auto; /*/es para el marguen de lado izquierdo que
+    esta establecido en automatico /*/
+    margin-right: auto;/*/es para el marguen de lado derecho que
+    esta establecido en automatico /*/
+}/*/cierre /*/
+.rectangulo { /*/nueva clase /*/
+    width: 150px; /*/ el tamaño del ancho /*/
+    height: 100px; /*/el tamaño de la altura /*/
+    background-color: red; /*/color del fondo /*/
+    border-style: solid; /*/estilo del borde /*/
+    margin-bottom: 10px; /*/establece el marguen inferior /*/
+    display: block;  /*/es para especificar que un elemento 
+    debe ser mostrado como un bloque, generando un salto de lenea antes 
+    y despues de el /*/
+    margin-left: auto; /*/es el marguen del lado izquierdo /*/
+    margin-right: auto; /*/marguen del lado derecho /*/
+}/*/cierre /*/
+.triangulo { /*/nueva figura /*/
+    width: 0;/*/el ancho de la figura /*/
+    right: 0; /*/la altura de la figura /*/
+    border: 150px solid; /*/el borde y el estilo del triangulo /*/
+    border-top: 0; /*/propiedades del borde /*/
+    border-bottom: 150px solid rgb(232, 6, 176);
+    margin-left: auto; /*/el borde de lado izquierdo /*/
+    margin-right: auto;/*/el borde del lado derecho /*/
+    display: block;  /*/es para especificar que un elemento 
+    debe ser mostrado como un bloque, generando un salto de lenea antes 
+    y despues de el /*/
+}/*/ cierre /*/
+.rombo { /*/ ultima figura /*/
+    width: 150px; /*/ lo ancho de la figura /*/
+    height: 150px; /*/ la latura /*/
+    background-color: blueviolet; /*/ el color de fondo /*/
+    position: relative; /*/ la posicion /*/
+    transform: rotate(45deg); /*/esto hace que la figura pueda rotar
+    hacia el lado derecho o izquierdo /*/
+    margin-top: 50px; /*/ establece el marguen superior de la figura /*/
+    margin-left: 40px; /*/ el marguen del lado izquierdo /*/
+    border-style: solid; /*/el estilo del marguen/*/
+    margin-left: auto;/*/ el marguen dizquierdo/*/
+    margin-right: auto;/*/ el marguen del lado derecho/*/
+}/*/ cierre/*/ 

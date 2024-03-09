@@ -1,0 +1,41 @@
+.miVideo { /*/se esta trabajando con la etiqueta especifica /*/
+    background-color: black; /*/ fondo de pantalla /*/
+position: relative; /*/posicion del video /*/
+width: 100%; /*/el ancho del video /*/
+height: 100%; /*/altura del video /*/
+z-index: 0; /*/esta propiedad se utiliza para contrar la profundidad de un elemento
+en este ejemplos e esta controlando la profundidad del video /*/
+} /*/cierre /*/
+
+.imagen { /*/ apertura de la imagen /*/
+    position: absolute; /*/la posicion es absoluta /*/
+    top: 50%; /*/especifican el desplazamiento vertical desde su posición original /*/
+    left: 50%; /*/ el lado izquierdo /*/
+    transform: translate(-50%, -50%); /*/Esta transformación mueve el elemento desde su 
+    posición original tanto en la dirección horizontal como en la vertical. /*/
+    z-index: 1; /*/esta propiedad se utiliza para contrar la profundidad de un elemento
+    en este ejemplos e esta controlando la profundidad del video /*/
+    opacity: 0.7; /*/se ajusta la opacidad /*/
+    border-radius: 10px; /*/el borde de la imagen /*/
+      filter: blur(2px); /*/ esto hace el efecto de un desonfoque que en este paso
+      es la imagen para que el video se pueda ver /*/
+      box-shadow: 7px 13px 37px #f2f5f6; /*/se establece  /*/
+}
+
+pre{ /*/todo el texto /*/
+    position: absolute; /*/posicion del texto /*/
+    border-style: solid; /*/se esta poniendo un borde y 
+    se le esta dando el estilo /*/
+    border-color: rgba(236, 242, 242, 0.663); /*/el color del borde y se le esta
+    dando una transparencia/*/
+      top: 100px; /*/especifican el desplazamiento vertical desde su posición original 
+      en este caso es el borde/*/
+      left: 50%; /*/se ajusta el lado izquierdo/*/
+      transform: translate(-50%, -50%);  /*/Esta transformación mueve el elemento desde su 
+      posición original tanto en la dirección horizontal como en la vertical. /*/
+      z-index: 2; /*/esta propiedad se utiliza para contrar la profundidad de un elemento
+      en este ejemplos e esta controlando la profundidad del video /*/
+      color: white; /*/el color del marguen /*/
+      font-size: 24px; /*/se establece el tamaño de texto /*/
+      text-align: center; /*/alineacion del texto /*/
+}/*/cierre /*/

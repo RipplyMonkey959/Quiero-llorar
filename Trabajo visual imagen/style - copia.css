@@ -1,0 +1,23 @@
+body{ /*/clase body y todo lo que venga dentro de esta /*/
+    background-color: rgba(150, 152, 150, 0.232); /*/ se esta estableciendo el color de
+    fondo de pantalla del body con un rgba que es trasparencia /*/
+} /*/cierre /*/
+
+.image{ /*/ clase imagen y todo lo que venga dentro de esta /*/
+   width: 400px; /*/ancho de la imagen que se esta midiendo por pixeles /*/ 
+   height:80%;  /*/la altura de la imagen que se mide en porciento /*/ 
+   border: 40px #13F4F1; /*/ el borde de la imagen que se mide en pixeles
+   y el color que se esta midiendo en hexadecimal /*/
+} /*/cierre de la clase imagen /*/
+
+h2 { /*/ clase h2*/
+    color: white; /*/ color /*/
+    border-style: solid; /*/estulo del borde que es solido /*/
+    border-color: white ;/*/ el color del borde /*/
+    border-radius: 70px; /*/las orillas del borde para que sean mas
+    redondas /*/
+    border-width: 9px; /*/ancho del borde  /*/
+    background-color: rgba(19, 244, 241.9); /*/el color del fondo que se esta llamdnod
+    en rgb con el añadido de medir el grado de opacidad /*/
+} /*/  cierre de la clase/*/
+

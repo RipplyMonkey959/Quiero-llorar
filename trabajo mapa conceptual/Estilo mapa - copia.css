@@ -1,0 +1,72 @@
+.p { /*/ se esta mandando a llamar toda la divicion p/*/
+    width: 20%; /*/ el ancho se esta midiendo en porcentaje/*/
+    margin-left: auto; /*/se esta generando un margen del 
+    lado izquierdo en automatico /*/
+    margin-right: auto;/*/se esta generando un margen del 
+    lado derecho en automatico /*/
+    color: blueviolet; /*/el color /*/
+    border-style: solid ; /*/el estilo del borde /*/
+    border-color: yellow; /*/el color del borde /*/
+    border-radius: 30px; /*/el borde de la etiqueta  hacer curvas /*/
+    border-width: 10px; /*/ define el ancho del borde/*/
+    background-color: aqua; /*/el color del fondo /*/
+    text-align: center; /*/la alineacion del texto /*/
+} /*/cierre de la etiqueta /*/
+.YOLO { /*/se esta trabajando con el divisor  /*/
+    border-left: thick solid #4b3ff9;  /*/ pone el color del borde izquierdo /*/
+    height: 15%; /*/el ancho de una linea /*/
+    left: 50%; /*/el largo del lado izquierdo /*/
+    position: absolute; /*/la posicion /*/
+} /*/cierre del divison /*/
+
+.lineaV{ /*/todo lo que este dentro del class sera estilado /*/
+    margin-top: 10%; /*/establece el margen superior de un elemento especificando /*/
+    margin-left: 25%; /*/establece el lado izquierdo /*/
+    border: thick solid #1e50f1; /*/ estilo del borde /*/
+    width: 50%; /*/ El tamaño del ancho/*/ 
+    position: absolute; /*/ la posicion de un elemnto/*/
+} /*/cierre /*/
+.linea3{ /*/ inicio/*/
+    margin-top: 10%; /*/establece el marguen superior de un elemento especificado /*/
+    border-left: thick solid #2a34f1; /*/estilo del borde izquierdo /*/
+    height: 15%; /*/altura de un elemnto /*/
+    left: 25.5%; /*/el lado izquierdo /*/
+    position: absolute; /*/la posicion /*/
+} /*/cierre /*/
+.ALV{ /*/ nombre de la clase /*/
+    margin-top: 10%; /*/establece el marguen superior de un elemento especificado /*/
+    border-left: thick solid #453fe9; /*/el estilo del borde del lado izquierdo y su color /*/
+    height: 30%; /*/ altura /*/
+    left: 76.5%; /*/el lado izquierdo /*/
+    position: absolute; /*/posicion /*/
+} /*/cierre /*/
+.spidy{ /*/ clase /*/
+    width: 20%; /*/el ancho /*/
+    margin-top: 500%; /*el marguen superior del elemento seleccionado/ /*/
+    margin-left: 50%; /*/marguen del elemento del lado ezquierdo /*/
+    margin-right: auto; /*/marguen del elemento del lado derecho /*/
+} /*/cierre /*/
+.spidy{ /*/clase /*/
+    font-family: Verdana, geneva, Tahoma, sans-serif; /*/ lista de fuente /*/
+    color:red; /*/color /*/
+    text-align: center; /*/texto alineado /*/
+    border-radius: 7px; /*/el borde para hacer un objeto curvo /*/
+    background-color: #4ee643; /*/el fondo del elemento /*/
+    border-style: solid;/*/el estilo del borde /*/
+    border-color: rgb(240, 57, 57); /*/ el color del borde /*/
+}/*/cierre /*/
+.YAALV{ /*/inicio /*/
+    width: 20%; /*/ el ancho del elemento /*/
+    margin-top: -7%; /*/el margen superior del elemento seleccionado /*/
+    margin-left: auto; /*/marguen del elemento del lado izquierdo /*/
+    margin-right: 13%; /*/marguen del elemento del lado derecho /*/
+} /*/cierre /*/
+.YAALV{ /*/uñtima clase /*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*/lista de fuente /*/
+    color:rgb(55, 241, 235); /*/color en rgb /*/
+    text-align: center; /*/texto alineado /*/
+    border-radius: 7px; /*/ hace que el elemento sea curvo /*/
+    background-color: #f333d3; /*/el color del fondo del elemento /*/
+    border-style: solid; /*/el estilo del borde /*/
+    border-color: white; /*/el color del borde /*/
+} /*/cierre /*/

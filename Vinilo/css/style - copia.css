@@ -1,0 +1,79 @@
+body{
+    background-image: url("../image/paisaje.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    }
+.console{
+    width: 500px; ;
+    height: 500px;
+    border: 5px solid black ;
+    border-radius: 20%;
+    position: relative;
+    overflow: hidden ;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 100px;
+    align-items: center;
+    background-image: url("../image/tocaD.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    /**background-color:rgb(125, 6, 130);**/
+
+}
+.vinilo{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    display: block;
+    margin-left: 55px;
+    margin-top: 10px;
+}
+.album{
+    width: 250px;
+    height: 250px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -315px;
+    background-image: url("../image/SK.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.agujero{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.linea1{
+    background-color: aliceblue;
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@keyframes girar {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.album{
+    animation: girar 10s linear infinite;
+}
+.vinilo{
+    animation: girar 10s linear infinite;
+}
+
